@@ -163,3 +163,36 @@ p {
     text-align: center;
   }
 }
+
+@media (max-width: 575.98px) {
+  .big-header {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  #title .container-fluid {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .container-fluid {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .testimonial-text {
+    font-size: 1.8rem;
+  }
+  #testimonials .container-fluid {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+  .section-heading {
+    font-size: 2rem;
+  }
+  .pricing-header {
+    font-size: 2rem;
+  }
+  .cta-text {
+    font-size: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
